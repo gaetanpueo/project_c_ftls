@@ -13,13 +13,13 @@
 LIB_NAME	=	project_c_libft
 LIB_DIR		=	../$(LIB_NAME)/
 LIB_BDIR	=	$(LIB_DIR)/bin/
-LIB_HDIR	=	$(LIB_DIR)/includes/
+LIB_HDIR	=	$(LIB_DIR)/inc/
 
 NAME		=	ft_ls
 BDIR		=	bin/
 SDIR		=	src/
 ODIR		=	obj/
-HDIR		=	includes/
+HDIR		=	inc/
 
 SRCS		=	get_data.c \
 				list.c \
