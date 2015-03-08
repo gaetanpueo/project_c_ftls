@@ -1,6 +1,6 @@
 # README #
 
-Projet : ft_ls
+Project : ft_ls
 
 ### Sources ###
 
