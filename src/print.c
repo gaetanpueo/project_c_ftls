@@ -115,17 +115,17 @@ void	print_infos(t_data *p_data, t_max *max)
 		ft_putstr(" ");
 	}
 	if (p_data->file->d_type == DT_DIR)
-		ft_putstr(CYAN);
+		ft_putstr(C_CYAN);
 	else if (p_data->file->d_type == DT_BLK)
 		ft_putstr(B_CYAN);
 	else if (p_data->file->d_type == DT_CHR)
 		ft_putstr(B_YELLOW);
 	else if (p_data->file->d_type == DT_LNK)
-		ft_putstr(MAGENTA);
+		ft_putstr(C_MAGENTA);
 	else if (p_data->p_stat->st_mode & S_IXUSR ||
 				(p_data->p_stat->st_mode & S_IXGRP) ||
 				(p_data->p_stat->st_mode & S_IXOTH))
-		ft_putstr(RED);
+		ft_putstr(C_RED);
 	ft_putstr(p_data->name);
-	ft_putstr(BLANK);
+	ft_putstr(C_NONE);
 }

@@ -26,13 +26,6 @@
 # include <time.h>
 # include <libft.h>
 
-# define CYAN						"\033[36;1m"
-# define B_CYAN						"\033[2;34;46m"
-# define RED						"\033[2;31m"
-# define MAGENTA					"\033[2;35m"
-# define B_YELLOW					"\033[2;34;43m"
-# define BLANK						"\033[00m\n"
-
 typedef struct s_opt				t_opt;
 typedef struct s_max				t_max;
 typedef struct s_data				t_data;
