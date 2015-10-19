@@ -127,5 +127,5 @@ void	print_infos(t_data *p_data, t_max *max)
 				(p_data->p_stat->st_mode & S_IXOTH))
 		ft_putstr(C_RED);
 	ft_putstr(p_data->name);
-	ft_putstr(C_NONE);
+	ft_putendl(C_NONE);
 }
